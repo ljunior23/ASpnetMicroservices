@@ -10,7 +10,7 @@ services:
   discountdb:  
     image: postgres
 
-  pgadmin:  
+  pgadmin:
     image: dpage/pgadmin4
 
   portainer:  

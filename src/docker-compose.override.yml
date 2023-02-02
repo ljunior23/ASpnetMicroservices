@@ -30,14 +30,14 @@ services:
   pgadmin:
      container_name: pgadmin
      environment:
-        - PGADMIN_DEFAULT_EMAIL= admin@leon.com
-        - PGADMIN_DEFAULT_PASSWORD = admin1234
+       - PGADMIN_DEFAULT_EMAIL=admin@leon.com
+       - PGADMIN_DEFAULT_PASSWORD=admin1234
      
      restart: always
      ports: 
-        - "5050:80"
+       - "5050:80"
      volumes:
-      - pgadmin_data:/root/.pgadmin
+       - pgadmin_data:/root/.pgadmin
 
   portainer:
     container_name: portainer
